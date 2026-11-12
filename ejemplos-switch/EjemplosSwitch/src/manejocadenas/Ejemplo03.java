@@ -34,7 +34,7 @@ public class Ejemplo03 {
                 cadenaFinal,
                 provincia);
         
-        System.out.println("Ingrese la país");
+        System.out.println("Ingrese el país");
         String pais = entrada.nextLine(); // 
         
         cadenaFinal = String.format("%sPaís:%s\n",  
@@ -45,3 +45,7 @@ public class Ejemplo03 {
         
     }
 }
+/*
+String.format sir para mostras los datos ingresados que fue guardando
+
+*/
