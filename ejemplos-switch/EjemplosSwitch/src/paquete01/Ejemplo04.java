@@ -5,6 +5,7 @@
  */
 package paquete01;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -15,7 +16,8 @@ public class Ejemplo04 {
     
     public static void main(String[] args) {
         //
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in); // lee los numeros ingresados
+        entrada.useLocale(Locale.US);  // ingresar decimales con punto envez de coma
         int opcion;
         double radianes;
         double resultado;
