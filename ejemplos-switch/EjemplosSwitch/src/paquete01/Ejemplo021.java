@@ -32,7 +32,7 @@ public class Ejemplo021 {
         entrada.useLocale(Locale.US);
 
         System.out.println("Ingrese el número de día de la semana");
-        int numeroDia = entrada.nextInt(); //6
+        int numeroDia = entrada.nextInt();
 
         if(numeroDia==1){
             System.out.printf("Día %d es %s\n", numeroDia, 
